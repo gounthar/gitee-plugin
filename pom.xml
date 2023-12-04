@@ -3,11 +3,12 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>2.3</version>
+    <version>4.51</version>
+    <relativePath/>
   </parent>
 
   <properties>
-    <jenkins.version>1.609.3</jenkins.version>
+    <jenkins.version>2.346.3</jenkins.version>
     <hpi-plugin.version>1.115</hpi-plugin.version>
     <jenkins-test-harness.version>${jenkins.version}</jenkins-test-harness.version>
     <findbugs.failOnError>false</findbugs.failOnError>
@@ -63,7 +64,7 @@
     <repository>
       <id>jgit-repository</id>
       <name>Eclipse JGit Repository</name>
-      <url>http://download.eclipse.org/jgit/maven</url>
+      <url>https://download.eclipse.org/jgit/maven</url>
     </repository>
   </repositories>
 
@@ -223,7 +224,6 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
       <scope>test</scope>
     </dependency>
     <dependency>
